@@ -6,7 +6,7 @@ body {
 }
 
 * {
-	font-family: 'Inter', system-ui;
+	font-family: 'Inter', sans-serif;
 }
 
 .wrapper {
@@ -76,21 +76,21 @@ header {
 	box-shadow: -10px 4px 24px rgba(0, 0, 0, 0.1);
 	padding: 30px;
 
-	.items {
-		flex: 1;
-		overflow: auto;
-		margin-bottom: 40px;
-	}
-
 	h2 {
 		margin: 0;
 	}
 }
 
+.items {
+	flex: 1;
+	overflow: auto;
+	margin-bottom: 40px;
+}
+
 .cartTotalBlock {
 	ul {
 		display: block;
-		margin-bottom: 40px !important;
+		margin-bottom: 20px !important;
 
 		li {
 			display: flex;
@@ -124,26 +124,26 @@ header {
 			transition: transform 0.15s ease-in-out;
 		}
 	}
-}
 
-.greenButton {
-	width: 100%;
-	height: 55px;
-	background: #9dd558;
-	border-radius: 18px;
-	border: 0;
-	color: #fff;
-	font-size: 16px;
-	font-weight: 500;
-	cursor: pointer;
-	transition: background 0.1s ease-in-out;
+	.greenButton {
+		width: 100%;
+		height: 55px;
+		background: #9dd558;
+		border-radius: 18px;
+		border: 0;
+		color: #fff;
+		font-size: 16px;
+		font-weight: 500;
+		cursor: pointer;
+		transition: background 0.1s ease-in-out;
 
-	&:hover {
-		background: lighten(#9dd558, 5%);
-	}
+		&:hover {
+			background: lighten(#9dd558, 5%);
+		}
 
-	&:active {
-		background: darken(#9dd558, 5%);
+		&:active {
+			background: darken(#9dd558, 5%);
+		}
 	}
 }
 
