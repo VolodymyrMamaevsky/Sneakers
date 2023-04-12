@@ -1,25 +1,17 @@
-import styles from './Card.module.scss';
+import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
+import ReactDOM from 'react-dom';
 
-console.log(styles);
+import './index.scss';
+import 'macro-css';
 
-function Card(props) {
-	return (
-		<div className={styles.card}>
-			<div className={styles.favorite}>
-				<img src="/img/heart-unliked.svg" alt="Unliked" />
-			</div>
-			<img width={133} height={112} src={props.imageUrl} alt="Sneakers" />
-			<h5>{props.title}</h5>
-			<div className="d-flex justify-between align-center">
-				<div className="d-flex flex-column">
-					<span>Цена:</span>
-					<b>{props.price} $</b>
-				</div>
-				<button className="button" onClick={props.onClick}>
-					<img width={11} height={11} src="/img/plus.svg" alt="Plus" />
-				</button>
-			</div>
-		</div>
-	);
-}
-export default Card;
+import App from './App';
+
+ReactDOM.render(
+	<React.StrictMode>
+		<Router>
+			<App />
+		</Router>
+	</React.StrictMode>,
+	document.getElementById('root')
+);
