@@ -2,4 +2,4 @@
 
 #### Online sneakers store.
 
-#### Project link:
+#### Project link: https://volodymyrmamaevsky.github.io/Sneakers
