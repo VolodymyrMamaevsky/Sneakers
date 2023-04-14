@@ -1,5 +1,5 @@
 ## Sneakers (react app)
 
-#### The application
+#### Online sneakers store.
 
 #### Project link:
