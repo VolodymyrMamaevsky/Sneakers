@@ -1,5 +1,4 @@
 import React from 'react';
-
 import Card from '../components/Card/Card';
 
 function Home({
@@ -33,12 +32,12 @@ function Home({
 					{searchValue ? `Поиск по запросу: "${searchValue}"` : 'Все кроссовки'}
 				</h1>
 				<div className="search-block d-flex">
-					<img src="/img/search.svg" alt="Search" />
+					<img src="img/search.svg" alt="Search" />
 					{searchValue && (
 						<img
 							onClick={() => setSearchValue('')}
 							className="clear cu-p"
-							src="/img/btn-remove.svg"
+							src="img/btn-remove.svg"
 							alt="Clear"
 						/>
 					)}
@@ -49,9 +48,9 @@ function Home({
 					/>
 				</div>
 			</div>
-
 			<div className="d-flex flex-wrap">{renderItems()}</div>
 		</div>
 	);
 }
+
 export default Home;
