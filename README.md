@@ -2,4 +2,4 @@
 
 #### Online sneakers store.
 
-#### Project link: https://volodymyrmamaevsky.github.io/Sneakers
+#### Project link: https://mamaevsky-sneakers.netlify.app
