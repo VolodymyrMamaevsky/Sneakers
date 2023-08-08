@@ -4,4 +4,4 @@
 
 #### Technologies: Javascript, React, SCSS, React router.
 
-#### Project link: https://mamaevsky-sneakers.vercel.app
+#### Project link: https://sneakers-mamaevsky.vercel.app
